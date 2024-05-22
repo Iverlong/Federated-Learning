@@ -4,7 +4,7 @@
 With the continuous development of modern artificial intelligence, the technology of using federated learning to solve practical problems is becoming more mature, and its application is becoming more and more widespread. This article discusses the impact on federated learning when there is a difference in the amount of data samples between different devices, and introduces a federated feature classifier retraining method called CReFF, which uses optimized federated features to retrain the classifier, making it produce performance comparable to retraining the classifier with real data. This article conducts experiments to verify the impact of different device data sample volumes on federated learning. The experimental results show that compared with the traditional federated learning basic algorithm FedAvg, the CReFF method can effectively improve the training quality and the accuracy of model prediction, confirming the effectiveness of the CReFF method in improving the impact of different device data sample volumes on federated learning. Further experiments verify the effectiveness of the CReFF method in dealing with the long-tail distribution and heterogeneity of device data. This research achievement provides a new direction for dealing with the problem of different device data sample volumes, and is expected to play an important role in the future.
 
 
-### 基线实验：每个本地客户端中数据类别平衡且每个本地客户端样本数据总量都相等的FedAvg实验
+### 基线实验：每个本地客户端中数据类别平衡且样本数据总量都相等的FedAvg实验
 
 基线实验代码：https://www.kaggle.com/code/iverlong/test1
 
