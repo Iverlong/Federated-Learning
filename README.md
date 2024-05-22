@@ -5,10 +5,13 @@ With the continuous development of modern artificial intelligence, the technolog
 
 
 基线实验：每个本地客户端中数据类别平衡且每个本地客户端样本数据总量都相等的情况下进行实验
+
 基线实验代码：https://www.kaggle.com/code/iverlong/test1
 
 实验二：设备数据样本量存在差异下的FedAvg和CReFF实验
+
 实验二代码：https://www.kaggle.com/code/iverlong/test2
 
 实验三：设备数据存在长尾分布和异质性情况下的FedAvg和CReFF实验
+
 实验三代码：https://www.kaggle.com/code/iverlong/test3
